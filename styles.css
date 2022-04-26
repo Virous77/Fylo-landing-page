@@ -274,6 +274,10 @@ ul li {
     height: 70%;
     margin-top: 2rem;
   }
+  
+  .fylo-one {
+    height: 100vh;
+  }
 
   .third-conta {
     width: 100%;
@@ -281,8 +285,8 @@ ul li {
 
   .third-conta img {
     width: 90%;
-    height: 70%;
-    padding-bottom: 2rem;
+    height: 80%;
+    margin-top: 3rem;
   }
 
   .first-button {
