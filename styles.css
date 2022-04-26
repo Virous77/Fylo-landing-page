@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(240, 75%, 98%);
+  /* color: hsl(228, 45%, 44%); */
+}
+
+.navbar {
+  background-color: hsl(240, 75%, 98%);
+  padding-top: 2rem;
+}
+
+.container-fluid {
+  max-width: 1280px;
+}
+
+a,
+.nav-link {
+  color: #000000;
+}
+
+.navbar-brand img {
+  width: 70%;
+}
+
+.cta__secondary {
+  background-color: transparent;
+  border: none;
+  padding: 12px 14px;
+  color: hsl(0, 0%, 75%);
+}
+
+.cta__primary {
+  border: none;
+  padding: 12px 10px;
+  background-color: transparent;
+  color: hsl(0, 0%, 75%);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.hero1 {
+  height: 50%;
+  margin-top: 4rem;
+}
+
+.hero2 {
+  height: 50%;
+  margin-top: 2rem;
+}
+
+.viewport {
+  height: 90vh;
+  background-color: hsl(240, 75%, 98%);
+}
+
+.row .first-header {
+  max-width: 550px;
+  padding-top: 10rem;
+  font-size: 2.15rem;
+  margin-bottom: 1.2rem;
+}
+
+.second-header {
+  font-size: 2rem;
+  padding-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.row .first-msg {
+  font-size: 1rem;
+  max-width: 500px;
+  line-height: 1.2;
+  opacity: 0.8;
+  margin-bottom: 2rem;
+}
+
+.second-msgone + .second-msgtwo {
+  font-size: 0.95rem;
+  line-height: 1.1rem;
+  max-width: 460px;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+}
+
+.info {
+  font-size: 0.9rem;
+  color: rgb(33, 125, 95);
+  border-bottom: 1px solid rgb(33, 125, 95);
+  margin-top: -13px;
+  display: block;
+  width: 150px;
+}
+
+.row input {
+  padding-left: 10px;
+  padding-right: 2rem;
+}
+
+.row button {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border: none;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: blue;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.flex {
+  background-color: rgb(236, 236, 236);
+  max-width: 325px;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 2rem;
+}
+
+.flex q {
+  font-size: 0.8rem;
+}
+
+.flexit img {
+  width: 10%;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.flexit {
+  display: flex;
+  align-items: center;
+}
+
+.author {
+  display: block;
+  font-size: 0.7rem;
+  margin-top: -5px;
+  opacity: 0.7;
+}
+.author-one {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.author-msg {
+  line-height: 1.3;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.third-section {
+  background-color: hsl(238, 22%, 44%);
+  padding-top: 3.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: -3rem;
+}
+
+.third-header {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.third-msg {
+  max-width: 430px;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.input-two {
+  display: block;
+  width: 60%;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: hsl(243, 87%, 12%);
+}
+
+.footer-one {
+  padding: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.second-logo {
+  width: 40%;
+  margin-bottom: 1rem;
+}
+
+.phoneinfo {
+  color: #fff;
+  margin-top: 1rem;
+  font-size: 0.86rem;
+}
+
+.phoneinfo img {
+  margin-right: 0.7rem;
+  width: 3%;
+}
+
+.email-info {
+  color: #fff;
+  margin-top: -10px;
+  font-size: 0.86rem;
+}
+
+.email-info img {
+  margin-right: 0.6rem;
+  width: 3.5%;
+}
+
+ul {
+  list-style: none;
+  margin-top: 5rem;
+}
+
+ul li {
+  color: #fff;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.icons {
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .cta__primary {
+    padding: 10px 3px;
+  }
+
+  .cta__secondary {
+    padding: 10px 3px;
+  }
+
+  .navbar-brand {
+    margin-right: 0.2rem;
+  }
+
+  .navbar-brand img {
+    width: 70%;
+  }
+
+  .first-conta {
+    max-width: auto;
+  }
+
+  .row .first-header {
+    padding-top: 4rem;
+  }
+
+  .second-conta {
+    width: 100%;
+  }
+
+  .second-conta img {
+    width: 90%;
+    height: 70%;
+    margin-top: 2rem;
+  }
+
+  .third-conta {
+    width: 100%;
+  }
+
+  .third-conta img {
+    width: 90%;
+    height: 70%;
+    padding-bottom: 2rem;
+  }
+
+  .first-button {
+    margin-top: 1rem;
+  }
+
+  .footer-one {
+    padding: 0.3rem;
+  }
+
+  .okok .button-two {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .second-logo {
+    padding-top: 2rem;
+  }
+
+  .third-section {
+    margin-top: 0;
+  }
+}
